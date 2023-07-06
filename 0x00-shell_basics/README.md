@@ -1,2 +1,2 @@
-the script execute command for currently working directory
-or it execute pwd command
+pwd- currently working directory
+s-list files and directories 
