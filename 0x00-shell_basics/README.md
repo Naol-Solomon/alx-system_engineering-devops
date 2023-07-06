@@ -1,2 +1,2 @@
-the script execute command for currently working directory
-or it execute pwd command
+pwd-currently working directory
+ls-list file and directory
