@@ -1,1 +1,1 @@
-alias for temporary execution
+deep shell understanding
