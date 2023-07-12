@@ -1,2 +1,2 @@
-#!/bin/bash
-echo -e "$(tail -n 1 iacta)\n" >> iacta
+#!/bi
+tail -n1 iacta >> iacta
