@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#connecting to server
+
+eval $(ssh-agent)
+
+ssh ubuntu@100.25.149.141

@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#downloading Nginx on web-01
+
+#to check for ant updation
+sudo apt-get update
+
+#downloading Nginx to web-01
+sudo apt-get -y install nginx
+
+#configure uncomplicated firewall
+sudo ufw allow 'Nginx HTTP'
+
+#creating file 
+echo "Hello World" | sudo tee /var/www/html/index.html
+
+#Testing Nginx for system error
+sudo nginx -t
+
+#Restarting Nginx
+sudo service nginx start
