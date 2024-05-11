@@ -1,0 +1,1 @@
+postmortem: creative idea prepared (not real). It is about apache2 and nginx server. apache2 running on port 8080 instead of nginx. The postmortem is written to describe each action taken to kill apache2 and make nginx run on  port 8080.
